@@ -1,0 +1,32 @@
+{
+  "nodivecentre": false,
+  "divecentreFacebookID": 123788904350090,
+  "divecentre": "Sailing Club",
+  "divecentrePromoPic": "images/sailingpromo.jpg",
+  "divecentreURL": "http://www.sailingclubdivers.com",
+  "photos": [
+    {
+      "url": "2015/10/06-Valery/DIW_5883.jpg"
+    }
+      ,
+    {
+      "url": "2015/10/06-Valery/DIW_5879.jpg"
+    }
+      ,
+    {
+      "url": "2015/10/06-Valery/DIW_5886.jpg"
+    }
+      ,
+    {
+      "url": "2015/10/06-Valery/DIW_5889.jpg"
+    }
+      ,
+    {
+      "url": "2015/10/06-Valery/DIW_5899.jpg"
+    }
+      ,
+    {
+      "url": "2015/10/06-Valery/DIW_5910.jpg"
+    }
+  ]
+}
