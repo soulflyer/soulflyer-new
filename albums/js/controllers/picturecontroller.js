@@ -1,4 +1,4 @@
-customerphotos.controller(
+albums.controller(
     "PictureController",
     function ($scope, $routeParams, $http) {
         $http.get("json/" + $routeParams.albumid).success(function(data, status, headers, config) {

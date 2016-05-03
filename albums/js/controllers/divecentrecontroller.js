@@ -1,4 +1,4 @@
-customerphotos.controller(
+albums.controller(
     "DivecentreController",
     function ($scope) {
     });

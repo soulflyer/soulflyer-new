@@ -1,4 +1,4 @@
-customerphotos.controller(
+albums.controller(
     "FindController",
     function($scope){
     $scope.enteredText="sample";

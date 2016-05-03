@@ -1,1 +1,1 @@
-var customerphotos = angular.module("customerphotos", []);
+var albums = angular.module("albums", []);

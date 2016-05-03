@@ -1,4 +1,4 @@
-customerphotos.controller(
+albums.controller(
     "StaffController",
     function ($scope,$routeParams) {
         $scope.divecentre=$routeParams.divecentreid;
