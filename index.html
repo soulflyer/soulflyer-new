@@ -1,10 +1,35 @@
-<html ng-app>
+<!doctype html>
+<html>
   <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"angular.js""></script>
-    <script src="js/controllers/indexcontroller.js"></script>
+    <meta name="viewport" content="width=device-width" >
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" media="(max-width: 600px)"  type="text/css" href="css/phone.css">
+    <link rel="stylesheet" media="(min-width: 601px)" type="text/css" href="css/laptop.css">
+
+    <link rel="stylesheet" media="(orientation: portrait)" type="text/css" href="css/portrait.css">
+    <link rel="stylesheet" media="(orientation: landscape)" type="text/css" href="css/landscape.css">
+
+    <script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+    <script type="text/javascript" chset="utf-8" src="js/mobile-jquery.js"></script>
   </head>
   <body>
-    <div ng-controller='HelloController'>
-      <p>{{greeting.text}}, World</p> </div>
+    <div class="container">
+      <header class="main">
+        <div id="logo">Soulflyer Photos</div>
+        <div id="menu"></div>
+      </header><!-- end header.main -->
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="divephotos/sample">diving</a></li>
+          <li><a href="divephotos/snorkelling">snorkelling</a></li>
+          <li><a href="wedding.html">wedding</a></li>
+          <li><a href="albums">collection</a></li>
+          <li><a href="mailto:photo-request@soulflyer.co.uk">contact</a></li>
+        </ul>
+      </nav>
+      <section class="content">
+      </section><!-- end section.content -->
+    </div><!-- end .container -->
   </body>
 </html>
